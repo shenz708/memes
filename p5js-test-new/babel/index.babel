@@ -1,0 +1,67 @@
+const LikeBox = React.createClass({
+  
+  getInitialState : function() {
+    return({
+      Likes: 0,
+      ShowLikes: false
+    })
+  },
+  
+  IncreaseLikes : function() {
+    this.setState({Likes: this.state.Likes + 1},
+      function(){
+        if (this.state.Likes >= 1) {
+          this.setState({ShowLikes: true})
+        }
+    })
+  },
+  
+  DecreaseLikes : function() {
+    this.setState({Likes: this.state.Likes - 1},
+      function(){
+        if (this.state.Likes <= 0) {
+          this.setState({ShowLikes: false})
+        }
+    })
+  },
+  
+  render : function() {   
+    
+    return(
+      <div className="like-container">
+          <div className="heart fa fa-heart" data-showing={this.state.ShowLikes}>
+            <LikeCounter Likes={this.state.Likes} ShowLikes={this.state.ShowLikes}/>
+          </div>
+          <LikeButtons likeClick={this.IncreaseLikes} dislikeClick={this.DecreaseLikes}/>
+      </div>
+   );
+  }
+});
+
+const LikeCounter = React.createClass({
+  render : function() {
+    return(
+      <div className="counter" data-showing={this.props.ShowLikes}>
+        {this.props.Likes}
+      </div>
+    )
+  }
+});
+
+const LikeButtons = React.createClass({
+  render : function() {
+    return(
+      <div className="button-container">
+        <button className="btn" onClick={this.props.likeClick}>Like</button>
+        <button className="btn" onClick={this.props.dislikeClick}>Dislike</button>
+      </div>
+    )
+  }
+})
+
+
+
+ReactDOM.render(
+  <LikeBox />,
+  document.getElementById('app')
+)

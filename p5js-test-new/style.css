@@ -1,0 +1,261 @@
+*{
+	margin:0px;
+	padding:0px;   
+    
+}
+
+/*
+body{
+    background-color: black;
+}
+*/
+/*
+
+#partone {
+    height:80px;
+    position:relative; 
+    text-align: center;
+    font-family: Arial;
+}
+*/
+
+#bg {
+    z-index:-100;
+    position: fixed; 
+    height:100%;
+    width:100%;
+/*    background-repeat: repeat-y; */
+}
+
+
+
+#input {   
+    top:80px; 
+    text-align: center; 
+        
+    font-family: Impact; 
+    font-size: 350%;
+    font-weight: 900;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px black;
+	-webkit-text-fill-color: white;
+    -webkit-appearance: none;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+/*
+::placeholder {
+    color: red;
+    opacity: 1; 
+}
+*/
+
+#form {
+    position: relative;
+    left: 580px;
+    
+    top: -480px;
+    z-index:100; 
+    
+    
+}
+
+#meme {
+    background:transparent; 
+    width: 480px; 
+    height: 600px; 
+    position: relative; 
+/*    text-align: center; */
+/*    left:300px; */
+    top:50px;
+    z-index: 1;
+}
+
+#top {
+    width: 100%; 
+    position:relative; 
+    
+    left:580px; 
+    top:80px; 
+    text-align: center; 
+    
+    font-family: Impact; 
+    font-size: 350%;
+    font-weight: 900;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px black;
+	-webkit-text-fill-color: white;
+    -webkit-appearance: none;
+    border-color: transparent;
+    background-color: transparent;
+    
+}
+
+
+#bottom {
+    width: 100%; 
+    position:relative; 
+    
+    left:580px; 
+    top:380px; 
+    text-align: center; 
+    
+    font-family: Impact; 
+    font-size: 350%;
+    font-weight: 900;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px black;
+	-webkit-text-fill-color: white;
+    -webkit-appearance: none;
+    border-color: transparent;
+    background-color: transparent;
+    
+}
+
+#buttons {
+    height:400px;
+}
+#buttonone {
+    padding-left: 500px; 
+}
+
+#buttonone, #buttontwo, #buttonthree {   
+    display: inline;
+ 
+}
+
+
+#button1, #button2, #button3 {
+    z-index:1000;  
+    background-color: aquamarine; 
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    
+/*    display: inline-block;*/
+   
+    font-family:Impact; 
+    font-size: 30px;
+    
+    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    overflow: hidden;    
+    cursor: pointer;
+}
+
+
+
+
+canvas {
+    z-index: -1;
+}
+
+snapshots {
+     z-index: 200;
+}
+
+/*
+div {
+    z-index: 10;
+}
+*/
+
+#buttons {
+    z-index: 100;
+    
+}
+/*heart*/
+body {
+  background: dodgerblue;
+
+}
+
+#app {
+    height: 1000px; 
+/*
+    background: pink;
+  
+*/
+    z-index: -200;
+    
+}
+
+.like-container {
+    
+/*    z-index: -1;*/
+
+    top: 290px;
+    
+    
+    left: 30px;
+    position:relative; 
+  padding:10px;
+/*  height: 30vh;*/
+  width:180px; 
+  display: flex;
+  justify-content: center;
+  
+    align-items: center;
+  flex-direction: column;
+}
+
+.heart {
+  position: relative;
+  transition: color 0.25s ease;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 100px;
+}
+.heart[data-showing='true'] {
+  color: crimson;
+}
+.heart .counter {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  line-height: 28px;
+  border-radius: 50%;
+  top: -5px;
+  right: -5px;
+  width: 30px;
+  height: 30px;
+  background: white;
+  color: crimson;
+  opacity: 0;
+  transition: all 0.35s cubic-bezier(0, 0.54, 0, 1.85) 0.15s;
+  -webkit-transform: translateY(25px) scale(0.5);
+          transform: translateY(25px) scale(0.5);
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "helvetica";
+}
+
+.heart .counter[data-showing='true'] {
+  -webkit-transform: translate(0px, 0px) scale(1);
+          transform: translate(0px, 0px) scale(1);
+  opacity: 1;
+}
+
+.button-container {
+  padding: 30px 0;
+}
+
+button {
+  border: 0px;
+  border-radius: 5px;
+  background: white;
+  margin: 10px 15px;
+  padding: 8px;
+/*  width: 60px;*/
+  font-weight: bold;
+}
+
+button:active {
+  background: #f16581; crimson   
+  color: white;
+}
+

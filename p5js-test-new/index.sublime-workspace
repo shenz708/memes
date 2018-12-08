@@ -1,0 +1,271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ele",
+				"element2"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"c",
+				"connection"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"o",
+				"opacity"
+			],
+			[
+				"elem",
+				"element3"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"inn",
+				"innerHeight"
+			],
+			[
+				"inner",
+				"innerWidth"
+			],
+			[
+				"S",
+				"scene"
+			],
+			[
+				"mol",
+				"modal2"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"siz",
+				"sizeX"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/heziqiang/Downloads/p5js-test/index.js",
+		"/Users/heziqiang/Desktop/untitled folder/css.css",
+		"/Users/heziqiang/Desktop/color.js",
+		"/Users/heziqiang/Downloads/final web/works/index.html",
+		"/Users/heziqiang/Downloads/final web/home/index.html",
+		"/Users/heziqiang/Downloads/final web/singlework/index.html",
+		"/Users/heziqiang/Downloads/final web/me/index.html",
+		"/Users/heziqiang/Desktop/bootcamp/web-bootcamp/final web/slider/script1.js",
+		"/Users/heziqiang/Desktop/bootcamp/web-bootcamp/final web/slider/script.js",
+		"/Users/heziqiang/Desktop/bootcamp/web-bootcamp/final web/slider/style1.css",
+		"/Users/heziqiang/Desktop/bootcamp/web-bootcamp/final web/slider/style.css",
+		"/Users/heziqiang/Desktop/bootcamp/web-bootcamp/final web/slider/index.html",
+		"/Users/heziqiang/Desktop/particle/script.js",
+		"/Users/heziqiang/Desktop/Xpectator/css/style.css",
+		"/Users/heziqiang/Desktop/Xpectator/server.js",
+		"/Users/heziqiang/Desktop/Xpectator/js/platform.js",
+		"/Users/heziqiang/Desktop/Xpectator/monitor.html",
+		"/Users/heziqiang/Desktop/Xpectator/platform.html",
+		"/Users/heziqiang/Desktop/Xpectator/js/monitor.js",
+		"/Users/heziqiang/node_modules/websockets/examples/client.js",
+		"/Users/heziqiang/Desktop/Map on table/platform.html",
+		"/Users/heziqiang/Desktop/Map on table/css/monitor.css",
+		"/Users/heziqiang/Desktop/Map on table/js/particle.js",
+		"/Users/heziqiang/Desktop/Map on table/js/platform.js",
+		"/Users/heziqiang/Desktop/Map on table/js/server.js",
+		"/Users/heziqiang/Desktop/Map on table/index.html",
+		"/Users/heziqiang/Desktop/Map on table/css/style.css",
+		"/Users/heziqiang/Desktop/Map on table/js/script.js",
+		"/Users/heziqiang/Desktop/Map on table/js/bar.js",
+		"/Users/heziqiang/Desktop/Map on table/js/materialize.min.js",
+		"/Users/heziqiang/Desktop/Map on table/css/knob.css",
+		"/Users/heziqiang/Desktop/knob/style.css",
+		"/Users/heziqiang/Desktop/knob/index.html",
+		"/Users/heziqiang/Desktop/thesis 2/map.png",
+		"/Users/heziqiang/Desktop/cqz/empty-example/script.js",
+		"/Users/heziqiang/Desktop/cqz/empty-example/index.html",
+		"/Users/heziqiang/Desktop/Javascript/To Do List/index",
+		"/Users/heziqiang/Desktop/p5/empty-example/bg.png",
+		"/Users/heziqiang/Desktop/p5/empty-example/地球.png"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 260.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
